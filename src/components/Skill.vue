@@ -2,7 +2,6 @@
     import { skillText } from "../constants";
 </script>
 
-
 <template>
     <section id="skill">
         <div class="skill__inner">
@@ -66,9 +65,7 @@
         @media (max-width: 800px) {
             padding: 5vw;
             width: 100%;
-        }
-
-        
+        }      
 
         span{
             font-size: 5vw;
@@ -80,7 +77,6 @@
             @media (max-width: 800px) {
                 font-size:20vw;
             }
-            
         }
 
         h3{
@@ -94,7 +90,6 @@
             margin-bottom: 30vh;
             font-size: 1.1rem;
         }
-        
     }
 }
 </style>
