@@ -32,7 +32,7 @@ import { portText } from "../constants";
 #port{
     width: 100%;
     margin-top: 30vh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .port__inner {
