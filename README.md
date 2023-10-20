@@ -6,6 +6,9 @@
 2. [vue.js](https://github.com/chu9400/port2023-vue)를 이용하여 사이트를 제작합니다.
 3. [next.js](https://github.com/chu9400/port2023-next)를 이용하여 사이트를 제작합니다.
 
+## 완성작
+미리보기 : [사이트보기](https://chu9400-port2023-vue.netlify.app/)
+
 ## 사용 스택
 - vue(https://ko.vuejs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
 - gsap(https://greensock.com/gsap) 를 이용하여 패럴랙스 효과를 줍니다.
