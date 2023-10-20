@@ -79,7 +79,7 @@
             padding: 20px 0;
             text-transform: uppercase;
             font-weight: 700;
-            background: url(../assets/img/arrow.svg) no-repeat right 20px;
+            background: url(@/assets/img/arrow.svg) no-repeat right 20px;
             transition: all 0.3s;
 
             &:hover{

@@ -18,7 +18,7 @@ import { headerNav} from "../constants";
             >
                 <ul>
                     <li v-for="(nav, key) in headerNav" :key="key">
-                        <a href={{nav.url}}>{{nav.title}}</a>
+                        <a :href="nav.url" @click="scrollLink($event)">{{nav.title}}</a>
                     </li>
                 </ul>
             </nav>
@@ -44,8 +44,20 @@ export default {
         }
     },
     methods: {
-        toggleMobileMenu(){
+        toggleMobileMenu(){ // 모바일 버튼
             this.isNavVisible = !this.isNavVisible;
+        },
+
+        scrollLink(event) { // 메뉴 클릭시 스크롤 이동
+            event.preventDefault();
+
+            const targetId = event.target.getAttribute("href");
+            const targetElement = document.querySelector(targetId);
+
+            if(targetElement) {
+                targetElement.scrollIntoView({behavior: "smooth" });
+                console.log(targetId, targetElement);
+            }
         }
     }
 }
