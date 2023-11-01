@@ -138,6 +138,7 @@ export default {
 
                 &:hover img{
                     filter: saturate(100%);
+                    border-radius: 50px;
                 }
 
                 img{
