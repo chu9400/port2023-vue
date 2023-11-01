@@ -144,6 +144,7 @@ export default {
                     border-radius: 10px;
                     filter: saturate(0%);
                     transition: all 0.3s;
+                    height: 250px;
                 }
             }
 

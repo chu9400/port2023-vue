@@ -19,7 +19,7 @@
                     <p class="desc">이곳에서 소스 코드를 볼 수 있습니다.</p>
                 </div>
                 <div class="right">
-                    <h3>social</h3>
+                    <h3>share</h3>
                     <ul>
                         <li v-for="(footer, key) in footerText" :key="key">
                             <a :href="footer.link">{{footer.title}}</a>
