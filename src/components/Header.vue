@@ -7,7 +7,7 @@ import { headerNav} from "../constants";
         <div class="header__inner">
             <div class="header__logo">
                 <h1>
-                    <a href="#">portfolio<em>vuejs</em></a>
+                    <a href="#">portfolio<em>hanul's</em></a>
                 </h1>
             </div>
             <nav 
