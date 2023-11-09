@@ -87,6 +87,10 @@ export default {
         margin-bottom: 16px;
         text-indent: -0.26vw;
 
+        @media (max-width:480px) {
+            height: 6vw;
+        }
+
         em {
             font-size: 1.25rem;
             font-weight: 400;
@@ -106,6 +110,10 @@ export default {
             padding: 2.5rem;
             margin-right: 20px;
             transition: all 0.3s;
+
+            @media (max-width:480px) {
+                width: 400px;
+            }
 
             &:hover {
                 height: 90vh;
@@ -146,6 +154,10 @@ export default {
                     filter: saturate(0%);
                     transition: all 0.3s;
                     height: 250px;
+
+                    @media (max-width:480px) {
+                        height: 200px;
+                    }
                 }
             }
 
